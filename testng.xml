@@ -2,6 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" thread-count="2" parallel="classes">
 
+<!--
 	<test name="Test1">
 		<classes>
 			<class name="org.cts.oneframework.cucumber.testrunners.TestRunner" />
@@ -17,6 +18,8 @@
 			<class name="org.cts.oneframework.cucumber.testrunners.APITestRunner" />
 		</classes>
 	</test>
+	
+-->
 	<test name="Test4">
 		<classes>
 			<class name="org.cts.oneframework.cucumber.testrunners.ComericaLoginRunner" />
